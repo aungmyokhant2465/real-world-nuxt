@@ -19,7 +19,7 @@ export default {
     } catch (e) {
       error({
         status: 503,
-        message: 'Unable to fetch events events at this time'
+        message: 'Unable to fetch events at this time'
       })
     }
   },
